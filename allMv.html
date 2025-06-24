@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmes - Todos</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/imgs.css"/>
+</head>
+<body style="background-color: #01131a;">      
+
+    <div id="fundofilme" 
+    style="background-image: 
+    radial-gradient(circle,rgba(0,0,0, 0) 40%, rgba(1, 19, 26,5) 100%),
+    linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(1, 19, 26, 5) 100%),
+    url('img/fundofilmes02.jpg');">
+
+        <div id="overlay">
+            <header style="display: flex; flex-direction: row; justify-content: space-between;"> 
+                <div style="display: flex; flex-direction: column; justify-content: center;"> 
+                    <img src="img/logo.png" height="40px" width="40px"/>
+                </div> 
+                
+                <nav style="display: flex; flex-direction: row; text-align: center; width: 80%; justify-content: center; gap: 50px;">
+
+                <ul style="list-style: none;
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                margin: 0px 15px 15px 15px;
+                padding: 0px 15px 0px 15px">
+                    <li style="display: flex; align-items: center; flex-direction: column; justify-content: center; margin: 0px 35px 0px 35px">
+                        <a class="link" href = "index.html">
+                            <i class="bx bx-home-alt-2"></i>
+                        </a>
+                        <span style="font-size: 12px;">Principal</span>
+                    </li>
+                    <li style="display: flex; align-items: center; flex-direction: column; justify-content: center; margin: 0px 35px 0px 35px">
+                        <a class="link" href = "movies.html">
+                            <i class="bx bx-movie-play"></i>
+                        </a>
+                        <span style="font-size: 12px;">Filmes</span>
+                    </li>
+                    <li style="display: flex; align-items: center; flex-direction: column; justify-content: center; margin: 0px 35px 0px 35px">
+                        <a class="link" href = "ctt.html">
+                            <i class="bx bx-phone"></i>
+                        </a>
+                        <span style="font-size: 12px;">Contato</span>
+                    </li>
+                    <li style="display: flex; align-items: center; flex-direction: column; justify-content: center; margin: 0px 35px 0px 35px">
+                        <a class="link" href = "about.html">
+                            <i class="bx bx-dots-horizontal-rounded"></i>
+                        </a>
+                        <span style="font-size: 12px;">Sobre</span>
+                    </li>
+                    <li style="display: flex; align-items: center; flex-direction: column; justify-content: center; margin: 0px 35px 0px 35px">
+                        <a class="link" href = "login.html">
+                            <i class="bx bx-at"></i>
+                        </a>
+                        <span style="font-size: 12px;">login</span>
+                    </li>
+                </ul>
+                
+                </nav>
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <a href = "login.html">
+                        <img src="img/profile/Captura de tela 2025-06-14 165156.png" height="40px" width="40px"/>
+                    </a> 
+                </div> 
+            </header>
+
+            <div id="containerComentFundo">
+                <div 
+                style="font-size: 20px; 
+                font-weight: bold; 
+                color: #368f8b;
+                background-color: rgba(8, 40, 51, 0.55);
+                border-radius: 8px;
+                padding: 0px 0px 8px 8px;
+                height: auto;
+                width: auto;
+                ">
+                    <p 
+                    style="margin-bottom: 8px;">
+                        Aqui estão todos os filmes oferecidos pela nossa locadora, aproveite!</p>
+                    <a href="movies.html" id="button">Voltar</a>
+                </div>
+            </div>      
+
+
+        </div>
+    </div>
+
+    <main style="display: flex; justify-content: center;">
+        <div   
+        style="width: 95vw; 
+        height: auto; 
+        color: #368f8b;">
+
+
+
+            <div style="
+            display: flex; 
+            flex-direction: row; 
+            justify-content: center; 
+            align-items: center;
+            margin-bottom: 25px;
+            gap: 25px;">
+            <a href="fctMv.html" class="buttonNvg"><</a> 
+                <h1>TODOS OS FILMES!</h1>
+            <a href="actMv.html" class="buttonNvg">></a> 
+            </div>
+
+            <nav id="GridFilmes">
+                
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc03.html">
+                        <img src="img/RmcFilme03.webp" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">A Culpa é das Estrelas</span>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct05.html">
+                        <img src="img/ActFilme05.jpg" class="images"/>
+                    </a>    
+                    <span style="margin-top: 15px;">Baby Driver</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct04.html">
+                        <img src="img/FctFilme04.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Blade Runner 2049</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc01.html">
+                        <img src="img/RmcFilme01.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Como Eu Era Antes de Você</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc06.html">
+                        <img src="img/RmcFilme06.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Como perder um homem em 10 dias</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc07.html">
+                        <img src="img/RmcFilme07.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Diário de uma paixão</span>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct01.html">
+                        <img src="img/FctFilme01.jpg" class="images"/>
+                    </a>    
+                    <span style="margin-top: 15px;">Duna 2</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct07.html">
+                        <img src="img/FctFilme07.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Efeito Borboleta</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct08.html">
+                        <img src="img/FctFilme08.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Exterminador do Futuro 2</span>
+                </div>
+                
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct07.html">
+                        <img src="img/ActFilme07.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Guerra Mundial Z</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct03.html">
+                        <img src="img/FctFilme03.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Interestelar</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct02.html">
+                        <img src="img/FctFilme02.jpg" class="images"/>
+                    </a>    
+                    <span style="margin-top: 15px;">Jogos Vorazes: A Esperança Parte 2</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct05.html">
+                        <img src="img/FctFilme05.jpg" class="images"/>
+                    </a>    
+                    <span style="margin-top: 15px;">Jogador N°1</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct01.html">
+                        <img src="img/ActFilme01.webp" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">John Wick</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct02.html">
+                        <img src="img/ActFilme02.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Mad Max: Estrada da Fúria</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct04.html">
+                        <img src="img/ActFilme04.jpg" class="images"/>
+                    </a>
+                    <span>Missão Impossível – Efeito Fallout</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieFct06.html">
+                        <img src="img/FctFilme06.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Mickey 17</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc04.html">
+                        <img src="img/RmcFilme04.webp" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Orgulho e Preconceito</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct06.html">
+                        <img src="img/ActFilme06.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">O Protetor</span>
+                </div>
+
+                 <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc08.html">
+                        <img src="img/RmcFilme08.png" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Querido John</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct08.html">
+                        <img src="img/ActFilme08.png" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Rambo IV</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc05.html">
+                        <img src="img/RmcFilme05.png" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Simplesmente acontece </span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieRmc02.html">
+                        <img src="img/RmcFilme02.png" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Titanic</span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <a href="moviesHtml/moovieAct03.html">
+                        <img src="img/ActFilme03.jpg" class="images"/>
+                    </a>
+                    <span style="margin-top: 15px;">Velozes e Furiosos 7</span>
+                </div>
+               
+            </nav>
+
+        </div>
+    </main>
+
+
+</body>
+<footer>
+    <div>
+        © Pedro Tancredi e Julia Capalbo - Instituto Federal do Sul de Minas Gerais - 2025
+    </div>
+</footer>
+    
+</html>

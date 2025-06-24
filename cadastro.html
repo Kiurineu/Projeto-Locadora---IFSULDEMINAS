@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    
+    <link rel="stylesheet" href="css/forms.css" />
+</head>
+
+<body 
+style="background-color: #0e4555; 
+display: flex; 
+justify-content: center">
+    <main style="display: flex; align-items: center; height: 90vh;">
+        <fieldset>
+            <legend style="color: #368f8b; font-size: 22px;"> Cadastro </legend>
+
+            <form style="flex-direction: column; display: flex;">
+                    <div class="formularioCad">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" style="background-color: #ddbea8;">
+                    </div>
+                    <div class="formularioCad">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" style="background-color: #ddbea8;">
+                    </div>
+                   
+                    <div class="formularioCad">
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" style="background-color: #ddbea8;">
+                    </div>
+
+                    <div class="formularioCad">
+                        <label for="estado">Estado:</label>     
+                        <select id="estado" style="background-color: #ddbea8;">
+                            <option value="ac" selected>Acre</option>
+                            <option value="al">Alagoas</option>
+                            <option value="ap">Amapá</option>
+                            <option value="am">Amazonas</option>
+                            <option value="bh">Bahia</option>
+                            <option value="ce">Ceará</option>
+                            <option value="df">Distrito Federal</option>
+                            <option value="es">Espírito Santo</option>
+                            <option value="go">Goiás </option>
+                            <option value="ma">Maranhão </option>
+                            <option value="mt">Mato Grosso</option>
+                            <option value="ms">Mato Grosso do Sul</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="pa">Pará</option>
+                            <option value="pb">Paraíba</option>
+                            <option value="pr">Paraná</option>
+                            <option value="pe">Pernambuco</option>
+                            <option value="pi">Piauí </option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="rn">Rio Grande do Norte </option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="ro">Rondônia </option>
+                            <option value="rr">Roraima </option>
+                            <option value="sc">Santa Catarina </option>
+                            <option value="sp">São Paula</option>
+                            <option value="se">Sergipe</option>
+                            <option value="to">Tocantins </option>
+                        </select>
+                    </div>
+                    <div class="formularioCad">
+                        <label for="data">Data de Nasc.:</label>
+                        <input type="date" id="data" style="background-color: #ddbea8;">
+                    </div>
+                    <label class="formularioCad">Sexo:</label>
+
+                    <div style="display: flex; justify-content: center; flex-direction: row; color: #ddbea8;">
+                        <input type="radio" id="masculino" name="sexo" value="masculino" style="background-color: #ddbea8;">
+                        <label for="masculino">Masculino</label>
+            
+                        <input type="radio" id="feminino" name="sexo" value="feminino" style="background-color: #ddbea8;">
+                        <label for="feminino">Feminino</label>
+            
+                        <input type="radio" id="outro" name="sexo" value="outro" style="background-color: #ddbea8;">
+                        <label for="outro">Outros</label>
+
+                    </div>
+                
+                    <label class="formularioCad">Interesses:</label>
+
+                    <div 
+                    style="display: grid;
+                    grid-template-columns: repeat(3, 2fr);
+                    justify-content: center;
+                    flex-direction: row;  
+                    color: #ddbea8;
+                    max-width: 900px;
+                    width: 100%;
+                    gap: 20px;">
+
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="checkbox" id="Ação" name="interesses" value="Ação" style="background-color: #ddbea8;">
+                        <label for="Ação">Ação</label>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="checkbox" id="Aventura" name="interesses" value="Aventura" style="background-color: #ddbea8;">
+                        <label for="Aventura">Aventura</label>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="checkbox" id="Comédia" name="interesses" value="Comédia" style="background-color: #ddbea8;">
+                        <label for="Comédia">Comédia</label>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="checkbox" id="Terror" name="interesses" value="Terror" style="background-color: #ddbea8;">
+                        <label for="Terror">Terror</label>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="checkbox" id="Suspense" name="interesses" value="Suspense" style="background-color: #ddbea8;">
+                        <label for="Suspense">Suspense</label>
+                    </div>
+                    <div style="display: flex; flex-direction: row;">
+                        <input type="checkbox" id="Suspense" name="interesses" value="Suspense" style="background-color: #ddbea8;">
+                        <label for="Suspense">Romance</label>
+                    </div>
+                    </div><br>
+                    <div class="formularioCad">
+                        <label for="user">Usuário:</label>
+                        <input type="text" id="user" style="background-color: #ddbea8;">
+                    </div>
+                    <div class="formularioCad">
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" style="background-color: #ddbea8;">
+                    </div>
+
+                <div style="display: flex; justify-content: center; flex-direction: row; gap: 15px; margin-top: 15px;">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                    <input type="button" value="Cancelar"><br>
+                </div>
+
+            </form>
+            
+                <nav>
+                    <a href="login.html">
+                        Voltar
+                    </a>
+                </nav>
+           
+        </fieldset>
+    </main>
+</body>
+<footer style="position: fixed;
+bottom: 0;
+width: 100%;
+height: 30px;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+font-weight: bold;
+background-color: rgba(8, 40, 51, 0.95);
+color: #368f8b;">
+    <div>
+        © Pedro Tancredi e Julia Capalbo - Instituto Federal do Sul de Minas Gerais - 2025
+    </div>
+</footer>
+</html>
