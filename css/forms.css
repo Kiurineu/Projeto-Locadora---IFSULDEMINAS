@@ -1,0 +1,78 @@
+fieldset{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #368f8b;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+input::placeholder{
+    font-style: italic;
+    font-size: 15px;
+}
+
+input:hover{
+    background-color: #ddbea8;
+    color: #000;
+}
+
+textarea{
+    background-color: #ddbea8;
+    border: 1px solid black;
+}
+
+textarea::placeholder{
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.formularioLog{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 15px 0px;
+    color: #368f8b;
+    font-size: 22px;
+    justify-content: space-between;
+}
+
+.formularioCad{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    color: #368f8b;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+#formularioCtt{
+    font-size: 20px;
+    width: 80%; 
+    height: auto; 
+    display: flex; 
+    flex-direction: column;
+    font-weight: bold;
+    margin: 5px 8% 15px 8%;
+    color: #76b9b6;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 8px;
+}
+
+#formularioCtt label {
+    margin-top: 15px;
+}
